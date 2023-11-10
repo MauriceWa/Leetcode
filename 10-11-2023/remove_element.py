@@ -4,5 +4,5 @@ class Solution:
         val = 0
 
         for num in nums:
-            
+
             if num == val:
