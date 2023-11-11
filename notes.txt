@@ -1,0 +1,7 @@
+[Setup]
+AppName=YourApp
+AppVersion=1.0
+DefaultDirName={pf}\YourApp
+DefaultGroupName=YourApp
+UninstallDisplayIcon={app}\YourApp.exe
+AppIcon={app}\YourIcon.ico  ; Path to your icon file
