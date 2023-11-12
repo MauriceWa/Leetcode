@@ -1,8 +1,8 @@
-class Solution:
+class Solution():
     def removeElement(self, nums, val):
-        nums = []
-        val = 0
-
+        counter = 0
         for num in nums:
-
-            if num == val:
+            if num != val:
+                nums[counter] = num
+                counter += 1
+        return counter
