@@ -6,4 +6,4 @@ class Solution():
                 nums[position] = num
                 position += 1
         return position
-#debug
+
