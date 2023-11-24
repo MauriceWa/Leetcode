@@ -1,5 +1,5 @@
 class Solution:
-    def findContentChildren(self, g: List[int], s: List[int]) -> int:
+    def findContentChildren(self, g: [int], s: [int]) -> int:
         g.sort()
         s.sort()
         index, j = 0, 0
