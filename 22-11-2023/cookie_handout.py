@@ -8,3 +8,5 @@ class Solution:
                 index += 1
             j += 1
         return index
+
+#debugged
