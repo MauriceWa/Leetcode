@@ -5,8 +5,8 @@ class Solution:
 
 
 x = 5
-y = 8
-xb = bin(x)[2:].zfill(8)
-yb = bin(y)[2:].zfill(8)
+y = 54721
+xb = bin(x)[2:].zfill(4)
+yb = bin(y)[2:].zfill(4)
 
 print(xb, yb)
